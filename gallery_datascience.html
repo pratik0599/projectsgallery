@@ -123,14 +123,14 @@
 
     <!-- Theme CSS -->
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css" />
-    <title>Gallery | Virtual Office Management System</title>
+    <title>Gallery | Data Science</title>
 </head>
 
 <body>
     <div id="header"></div>
     <div class="d-flex flex-row parentdiv">
         <div class="extradiv"></div>
-        <h3>Gallery | Virtual Office Management System</h3>
+        <h3>Gallery | Data Science</h3>
     </div>
     <div class="photo-gallery">
         <div class="container">
@@ -167,8 +167,8 @@
         }
         function setImages() {
             var htmlStr = "";
-            for (let i = 0; i <= 7; i++) {
-                strLnk = 'assets/images/project_gallery/virtualofficemngt/thumb_' + i + '.png';
+            for (let i = 0; i <= 24; i++) {
+                strLnk = 'assets/images/project_gallery/datascience/thumb_' + i + '.png';
                 htmlStr += "<div id=" + i + " class='col-sm-6 col-md-4 col-lg-3 item'><a href='" + strLnk + "' data-lightbox='photos'><img class='img-fluid img-responsive' src='" + strLnk + "' /></a></div>";
             }
             $("#img-row").append(htmlStr);
